@@ -1,0 +1,14 @@
+{
+  "common_prefix": "user:profile:",
+  "keys": [
+    "user:profile:0001", "user:profile:0002", "user:profile:0003",
+    "user:profile:0004", "user:profile:0005", "user:profile:0006",
+    "user:session:0001", "user:session:0002",
+    "order:0001", "order:0002"
+  ],
+  "inserts": ["user:profile:0007", "order:0003"],
+  "scans": [
+    ["user:profile:0001", "user:profile:0004"],
+    ["order:0001", "order:9999"]
+  ]
+}
